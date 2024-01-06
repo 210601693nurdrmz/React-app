@@ -1,0 +1,60 @@
+﻿.header {
+    background-image:linear-gradient(180deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.60) 100%);
+    width:100%;
+    height:48px;
+    position:relative;
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.icons {
+    width:88px;
+    height:48px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.home, .settings {
+    background-color:rgba(255, 255, 255, 0);
+    width:32px;
+    height:28px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.fa {
+    color:rgba(78.37134182453156, 139.52671945095062, 231.2597706913948, 1);
+    width:18px;
+    height:28px;
+    font-family:Font Awesome 6 Free;
+    text-align:left;
+    font-size:16px;
+    font-weight:900;
+    line-height:28px;
+}
+
+.logo {
+    width:32px;
+    height:29px;
+    margin-left:15px;
+}
+
+.logo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.title {
+    color:rgba(0, 0, 0, 1);
+    font-family:IBM Plex Sans;
+    text-align:left;
+    font-size:16px;
+    font-weight:500;
+    line-height:28px;
+}
